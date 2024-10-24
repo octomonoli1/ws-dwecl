@@ -1,0 +1,18 @@
+//Almaceno el mayor valor posible en un number
+var num = Number.MAX_VALUE;
+console.log(num);
+
+//Intento, sin exito, aumentar ese valor en un number (no cabe)
+var result = num * 10;
+console.log(result);
+
+//Para poder hacerlo, debo utilizar el tipo bigint
+var num2 = BigInt(Number.MAX_VALUE);
+
+//Ahora si, aumentamos el valor de num2
+var result2 =  num2 * BigInt(10);
+console.log(result2);
+
+//Otra forma de solucionarlo
+var num3 = 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999n;
+console.log(num3);
