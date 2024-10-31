@@ -3,6 +3,12 @@ console.log(window);
 //Métodos
 window.alert("Muestra mensaje por ventana de alerta");
 
+window.confirm("Muestr auna alerta con botón de confirmación");
+
+window.prompt("Pide un valor de entrada al usuario a través de una ventana de alerta");
+
+//window.find("texto","busca en un array");
+
 let msg = window.atob("Codifica este mensaje y lo almacena en la variable de retorno msg");
 console.log(msg); 
 
@@ -24,3 +30,13 @@ window.innerWidth; // Muestra la anchura de la ventana abierta
 window.onload = function(){return "Almacena la accion a realizar una vez cargada la página"}
 
 window.origin; //Almacena la URL raíz de la web donde estas.
+
+window.location; //Te da la URL actual
+
+window.length; //Numero de frames que tiene la ventana
+
+window.history; //Para manejar el historial del navegador
+
+window.outerWidth; //Anchura completa del navegador
+
+window.outerHeight; //Altura completa del navegador
