@@ -11,4 +11,5 @@ window.onload = function crear_lista() {
     else {
         console.error("Introduce un número válido");
     }
+    document.getElementsByTagName("body")[0].appendChild(list);
 };
