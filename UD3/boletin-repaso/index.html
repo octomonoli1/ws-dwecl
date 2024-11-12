@@ -5,9 +5,34 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <script src='ejercicio1.js'></script>
+    <script src='ejercicio5.js'></script>
+    <style>
+        #error {
+            color: blue;
+        }
+    </style>
 </head>
 <body>
-    
+    <form>
+        <input id="pass" type="text" placeholder="Introduce tu contraseña..."/>
+        <span id="error"></span>
+        <input type="button" value="Validar" onclick="validate()"/>
+    </form>
+    <form>
+        <input id="url" type="text" placeholder="Introduce una url..."/>
+        <input type="button" value="Ir" onclick="navegar()"/>
+        <div id="contenedor">Intentos</div>
+    </form>
+    <form>
+        <label for="marcas">Marcas de coche: </label>
+        <select id="marcas">
+            <option value="1">Volkswagen</option>
+            <option value="2">Ford</option>
+            <option value="3">Mercedes</option>
+            <option value="4">Peugeot</option>
+            <option value="5" selected>Aston Martin</option>
+        </select>
+        <input type="button" value="Guardar" onclick="guarda_cookie()"/>
+    </form>
 </body>
 </html>
