@@ -11,6 +11,7 @@ function save_cookie(){
 
 window.onload = () =>{
     let cookieValues = document.cookie.split(";");
+    
     for(let i = 0; i < cookieValues.length; i++){
         let cookieItem = cookieValues[i].trim();
         if(cookieItem.indexOf(nameId) == 0){
