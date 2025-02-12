@@ -1,0 +1,20 @@
+{  
+    "comentario": "JSON. La clase Arreglo es la principal a representar...",
+
+    "fechaArreglo": "2025-02-04",
+    "vehiculo": {
+        "color": "rojo",
+        "marca": "ford fiesta",
+        "fechaCompra": "1999-01-01",
+        "propietario":{
+            "dni" : "12312312H",
+            "nombre": "Pedro"
+        }
+    },
+    "mecnaico":{
+        "dni": "00000000J",
+        "nombre": "Laura",
+        "irpf": 19,
+        "salario": "2300"
+    }
+}
